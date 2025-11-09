@@ -52,6 +52,10 @@ Yes! Use the **"Active item CSS class"** field in the Advanced panel (defaults t
 = Why require WordPress 6.3+? =
 The block uses modern Gutenberg APIs (`core-data`, `EntityPicker`, `ServerSideRender`) that are stable from WP 6.3 onward.
 
+= Where is the developer version hosted? =
+The developer version is available [here](https://github.com/yalogica/post-hierarchy-nav).
+
+
 == Changelog ==
 
 = 1.0.0 =

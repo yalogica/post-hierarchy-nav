@@ -17,11 +17,11 @@ namespace Yalogica\PostHierarchyNav;
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'POST_HIERARCHY_NAV_PLUGIN_NAME', 'post-hierarchy-nav' );
-define( 'POST_HIERARCHY_NAV_PLUGIN_VERSION', '1.0.0' );
-define( 'POST_HIERARCHY_NAV_PLUGIN_BASE_NAME', plugin_basename( __FILE__ ) );
-define( 'POST_HIERARCHY_NAV_PLUGIN_PATH', __DIR__ );
-define( 'POST_HIERARCHY_NAV_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+define( 'YALOGICA_POST_HIERARCHY_NAV_PLUGIN_NAME', 'post-hierarchy-nav' );
+define( 'YALOGICA_POST_HIERARCHY_NAV_PLUGIN_VERSION', '1.0.0' );
+define( 'YALOGICA_POST_HIERARCHY_NAV_PLUGIN_BASE_NAME', plugin_basename( __FILE__ ) );
+define( 'YALOGICA_POST_HIERARCHY_NAV_PLUGIN_PATH', __DIR__ );
+define( 'YALOGICA_POST_HIERARCHY_NAV_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 require_once( __DIR__ . '/includes/autoload.php' );
 

@@ -4,8 +4,8 @@ namespace Yalogica\PostHierarchyNav;
 defined( 'ABSPATH' ) || exit;
 
 class Plugin {
-    public const OPTION_VERSION = '_post_hierarchy_nav';
-    public const OPTION_DATE = '_post_hierarchy_nav_date';
+    public const OPTION_VERSION = '_yalogica_post_hierarchy_nav';
+    public const OPTION_DATE = '_yalogica_post_hierarchy_nav_date';
 
     public function __construct() {
         $this->updateVersion();
@@ -15,8 +15,8 @@ class Plugin {
     }
 
     private function updateVersion() {
-        if ( version_compare( get_option( self::OPTION_VERSION ), POST_HIERARCHY_NAV_PLUGIN_VERSION, '<' ) ) {
-            update_option( self::OPTION_VERSION, POST_HIERARCHY_NAV_PLUGIN_VERSION );
+        if ( version_compare( get_option( self::OPTION_VERSION ), YALOGICA_POST_HIERARCHY_NAV_PLUGIN_VERSION, '<' ) ) {
+            update_option( self::OPTION_VERSION, YALOGICA_POST_HIERARCHY_NAV_PLUGIN_VERSION );
         }
     }
 

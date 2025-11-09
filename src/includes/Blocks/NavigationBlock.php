@@ -9,7 +9,7 @@ class NavigationBlock {
     }
     
     public function init() {
-        register_block_type( POST_HIERARCHY_NAV_PLUGIN_PATH . '/assets/blocks/navigation-block', [ 'render_callback' => [ $this, 'renderBlock' ] ]);
+        register_block_type( YALOGICA_POST_HIERARCHY_NAV_PLUGIN_PATH . '/assets/blocks/navigation-block', [ 'render_callback' => [ $this, 'renderBlock' ] ]);
     }
 
     public function renderBlock( $attributes = [] ) {
