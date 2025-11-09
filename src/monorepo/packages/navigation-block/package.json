@@ -1,0 +1,27 @@
+{
+    "name": "@post-hierarchy-nav/navigation-block",
+    "version": "1.0.0",
+    "author": "Max Lavrentev",
+    "private": true,
+    "scripts": {
+        "build": "wp-scripts build && cpy block.json build/",
+        "start": "wp-scripts start"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.1",
+        "@types/wordpress__block-editor": "^14.21.0",
+        "@types/wordpress__blocks": "^12.5.18",
+        "@wordpress/scripts": "^30.27.0",
+        "cpy-cli": "^6.0.0",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^15.7.0",
+        "@wordpress/blocks": "^15.7.0",
+        "@wordpress/components": "^30.7.0",
+        "@wordpress/core-data": "^7.34.0",
+        "@wordpress/data": "^10.34.0",
+        "@wordpress/server-side-render": "^6.10.0",
+        "clsx": "^2.1.1"
+    }
+}

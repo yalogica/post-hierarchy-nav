@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "post-hierarchy-nav/navigation",
+    "title": "Hierarchy Nav",
+    "category": "widgets",
+    "icon": "list-view",
+    "description": "Displays a hierarchical navigation tree of posts or custom post types.",
+    "supports": {
+        "html": false,
+        "className": true
+    },
+    "attributes": {
+        "postType": { "type": "string", "default": "post" },
+        "mode": { "type": "string", "default": "all" },
+        "customPostId": { "type": "number", "default": 0 },
+        "showCount": { "type": "boolean", "default": false },
+        "activePostClassName": { "type": "string", "default": "active" }
+    },
+    "editorScript": "file:./index.js"
+}
